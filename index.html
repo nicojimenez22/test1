@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm"
+    >
+      <div class="container-fluid">
+        <!-- Boton Collapse-->
+        <a href="#" class="navbar-brand">Mi CV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Lista de Elementos-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-1 rounded">
+              <a href="#hero" class="nav-link px-2">Inicio</a>
+            </li>
+            <li class="nav-item mx-1 rounded">
+              <a href="#info" class="nav-link px-2">Informacion Personal</a>
+            </li>
+            <li class="nav-item mx-1 rounded">
+              <a href="#experience" class="nav-link px-2">Experiencia</a>
+            </li>
+            <li class="nav-item mx-1 rounded">
+              <a href="#education" class="nav-link px-2">Educacion</a>
+            </li>
+            <li class="nav-item mx-1 rounded">
+              <a href="#skills" class="nav-link px-2">Habilidades</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Hero Section-->
+    <section id="hero" class="hero">
+      <h1>Tu Nombre</h1>
+      <p>Desarrolador Full Stack|Maquetador Web</p>
+    </section>
+    <!--Informacion Personal-->
+    <section id="info" class="info-section bg-light">
+      <div class="container">
+        <h2 class="section-title">Informacion Personal</h2>
+        <div class="row">
+          <!--Foto Perfil-->
+          <div class="col-md-4 d-flex justify-content-center mb-3">
+            <img
+              src="https://placehold.co/200x200"
+              alt="Foto de Perfil"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+          <!--Datos-->
+          <div class="col-md-8">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>Nombre:</strong> Tu Nombre
+              </li>
+              <li class="list-group-item">
+                <strong>Correo:</strong> nombre.ejemlo@ejemplo.com
+              </li>
+              <li class="list-group-item">
+                <strong>Telefono:</strong> +54 123 456 789
+              </li>
+              <li class="list-group-item">
+                <strong>Ubicacion:</strong> Cordoba, Argentina
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Experiencia Laboral-->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>Desarrollador Full Stack</strong> - Empresa X
+            (2020-Presente)
+            <p>
+              Desarrollé aplicaciones web utilizando el stack MERN (MongoDB,
+              Express, React, Node.js).
+            </p>
+          </li>
+          <li class="list-group-item">
+            <strong>Soporte Tecnico</strong> - Empresa Y (2018-2020)
+            <p>
+              Brindé soporte técnico a usuarios y mantenimiento de equipos
+              informáticos.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Educacion-->
+    <section id="education" class="education-section bg-light">
+      <div class="container">
+        <h2 class="section-title">Educación</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>Ingeniería en Sistemas</strong> - Universidad Tecnológica
+            Nacional (2015 - 2020)
+          </li>
+          <li class="list-group-item">
+            <strong>Certificación en Desarrollo Web</strong> - Platzi (2019)
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Habilidades-->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                JavaScript
+                <img
+                  src="https://img.icons8.com/?size=100&id=39853&format=png&color=000000"
+                  alt=""
+                />
+              </li>
+              <li class="list-group-item">Node.js</li>
+              <li class="list-group-item">React</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">HTML/CSS</li>
+              <li class="list-group-item">MongoDB</li>
+              <li class="list-group-item">Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
